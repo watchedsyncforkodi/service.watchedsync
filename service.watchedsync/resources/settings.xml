@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="32001">
+		<setting id="addon_status" label="32012" type="text" />
+		<setting id="in_registration_mode" label="32013" type="bool" default="false" visible="false" />
+		<setting type="sep" visible="eq(-1,true)" />
+		<setting id="user_registration_code" label="32013" type="text" visible="eq(-2,true)" />
+		<setting id="auth_client_id" type="text" visible="false"/>
+		<setting id="auth_client_secret" type="text" visible="false"/>
+		<setting id="registration_code" type="text" visible="false"/>
+		<setting id="connected_online" type="bool" visible="false"/>
+	</category>
+</settings>

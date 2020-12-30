@@ -1,0 +1,79 @@
+# XBMC Media Center language file
+# Addon Name: Watched Status Sync
+# Addon id: service.watchedsync
+# Addon version: 0.2.3
+# Addon Provider: watchedsyncforkodi
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC-Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
+"POT-Creation-Date: 2014-06-04 04:09+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+msgctxt "#32000"
+msgid "Watched Status Sync"
+msgstr ""
+
+msgctxt "#32001"
+msgid "Status"
+msgstr ""
+
+msgctxt "#32002"
+msgid "Internet"
+msgstr ""
+
+msgctxt "#32003"
+msgid "Watched Status Sync Service"
+msgstr ""
+
+msgctxt "#32004"
+msgid "Device ID"
+msgstr ""
+
+msgctxt "#32005"
+msgid "Device Status"
+msgstr ""
+
+msgctxt "#32006"
+msgid "Last message"
+msgstr ""
+
+msgctxt "#32007"
+msgid "Starting up..."
+msgstr ""
+
+msgctxt "#32008"
+msgid "Unregistered"
+msgstr ""
+
+msgctxt "#32009"
+msgid "Registered"
+msgstr ""
+
+msgctxt "#32010"
+msgid "Connected"
+msgstr ""
+
+msgctxt "#32011"
+msgid "Offline"
+msgstr ""
+
+msgctxt "#32012"
+msgid "Addon Status"
+msgstr ""
+
+msgctxt "#32013"
+msgid "Registration Code"
+msgstr ""
+
+msgctxt "#32014"
+msgid "To complete setup this add-on requires registration.[CR][CR]Please send an email to watched.sync.addon@gmail.com specifying registration code: "
+msgstr ""
+
