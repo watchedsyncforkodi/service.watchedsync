@@ -2,7 +2,7 @@
 
 ### Table of Contents
 * [What is it?](#what-is-it)
-* [What does this add-on do?](#what-does-this-addon-do)
+* [What does this add-on do?](#what-does-this-add-on-do)
 * [How much does it cost?](#how-much-does-it-cost)
 * [Installation](#installation)
 * [Need help?](#need-help)
@@ -22,7 +22,7 @@ Unlike other solutions, this add-on:
 * Synchronises the watched statuses of your TV episodes and Movies in the background
 * Allows you to stop play back in one room and seamlessly continue watching the Movie or TV episode in another
 * Refreshes the home screen in Kodi to simplify play back of in-progress Movies or TV episodes (if supported by your Kodi skin)
-* *Add your feature requests to* [Issues](/watchedsyncforkodi/service.watchedsync/issues)
+* *Add your feature requests to* [Issues](https://github.com/watchedsyncforkodi/service.watchedsync/issues)
 
 ### How much does it cost?
 **Free** (during testing)
@@ -62,7 +62,7 @@ For now assume this will remain free until further notice.
 
 ### Need help?
 
-* Search the [Issues](/watchedsyncforkodi/service.watchedsync/issues) to see if your problem has already been reported. If not, create a new issue and provide a debug logfile. The simplest way to provide a debug log is to follow the instructions found at [Kodi Logfile Uploader Add-on](https://kodi.wiki/view/Log_file/Easy) and add the returned URL to the issue text.
+* Search the [Issues](https://github.com/watchedsyncforkodi/service.watchedsync/issues) to see if your problem has already been reported. If not, create a new issue and provide a debug logfile. The simplest way to provide a debug log is to follow the instructions found at [Kodi Logfile Uploader Add-on](https://kodi.wiki/view/Log_file/Easy) and add the returned URL to the issue text.
 
 ### Thanks to
 * Team Kodi for [Kodi](https://kodi.tv/) and the support from everyone provided in the [forums](https://forum.kodi.tv/).
