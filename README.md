@@ -25,11 +25,11 @@ Unlike other solutions, this add-on:
 * *Add your feature requests to* [Issues](https://github.com/watchedsyncforkodi/service.watchedsync/issues)
 
 ### How much does it cost?
-**Free** (during testing)
+**Free**
 
-This add-on uses a cloud based system to provide the service. The benefit of using a cloud based service is to provide higher availability and remove the dependency on any other software or hardware running 24/7 around the home.
+This add-on uses a cloud based system to provide the service. This provides higher availability and removes the dependency on any other software or hardware running 24/7 in the home.
 
-However, if this proves to be popular a small annual subscription may be needed to sustainably run this service.
+However, if this add-on proves to be very popular a small annual subscription may be needed to sustainably run this service.
 
 For now assume this will remain free until further notice.
 
@@ -58,7 +58,9 @@ For now assume this will remain free until further notice.
    
 5. After receiving the confirmation email the last step is to reboot/restart all the kodi devices.
    
-6. Enjoy!
+6. **That's it!**
+   
+7. This add-on is designed to work quietly in the background with little visual feedback. **To test it is working**, highlight a movie on the home screen and bring up the Context Menu in Kodi (you can normally press 'c' on the keyboard to bring up the menu). Select "Mark as watched". Within a few seconds the other kodi devices will mark the same movie as watched! On the second device bring up the Context Menu again for the same movie, this time selecting "Mark as unwatched". Within a few seconds the other kodi devices will mark the movie as unwatched.   
 
 ### Need help?
 
