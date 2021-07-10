@@ -37,6 +37,7 @@ For now assume this will remain free until further notice.
 1. Download the zip file below and save to the home folder on each kodi device:
 
 	* [Download version for Kodi v18.x (Leia)](https://raw.githubusercontent.com/watchedsyncforkodi/repository.watchedsync.addon/kodi-v18/repository.watchedsync.addon.latest.zip)
+	* [Download version for Kodi v19.x (Matrix)](https://raw.githubusercontent.com/watchedsyncforkodi/repository.watchedsync.addon/kodi-v19/repository.watchedsync.addon.latest.zip)
 
 2. Install downloaded zip.
 
