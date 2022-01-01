@@ -5,13 +5,14 @@
 * [What does this add-on do?](#what-does-this-add-on-do)
 * [How much does it cost?](#how-much-does-it-cost)
 * [Installation](#installation)
+* [Things to note](#things-to-note)
 * [Need help?](#need-help)
 * [Thanks to...](#thanks-to)
 
 ### What is it?
 This is a service add-on for Kodi that enables real-time  synchronisation of the "watched" status between multiple kodi devices.
 
-The "watched" status is the record Kodi makes in its internal database whether a Movie or TV episode has been watched or is partially the way through (known as a Resume point)
+The "watched" status is the record Kodi makes in its internal database whether a Movie or TV episode has been watched or is partially the way through (known as a "resume point")
 
 Unlike other solutions, this add-on:
 * does not require a separate mysql/mariadb service to be installed or managed
@@ -22,6 +23,7 @@ Unlike other solutions, this add-on:
 * Synchronises the watched statuses of your TV episodes and Movies in the background
 * Allows you to stop play back in one room and seamlessly continue watching the Movie or TV episode in another
 * Refreshes the home screen in Kodi to simplify play back of in-progress Movies or TV episodes (if supported by your Kodi skin)
+* Allows synchronisation of watched statuses between different major kodi versions (e.g. Kodi v18 & v19) - useful when testing new versions of Kodi
 * *Add your feature requests to* [Issues](https://github.com/watchedsyncforkodi/service.watchedsync/issues)
 
 ### How much does it cost?
@@ -36,22 +38,22 @@ For now assume this will remain free until further notice.
 ### Installation
 1. Download the zip file below and save to the home folder on each kodi device:
 
-	* [Download version for Kodi v18.x (Leia)](https://raw.githubusercontent.com/watchedsyncforkodi/repository.watchedsync.addon/kodi-v18/repository.watchedsync.addon.latest.zip)
-	* [Download version for Kodi v19.x (Matrix)](https://raw.githubusercontent.com/watchedsyncforkodi/repository.watchedsync.addon/kodi-v19/repository.watchedsync.addon.latest.zip)
+    * [Download version for Kodi v18.x (Leia)](https://raw.githubusercontent.com/watchedsyncforkodi/repository.watchedsync.addon/kodi-v18/repository.watchedsync.addon.latest.zip)
+    * [Download version for Kodi v19.x (Matrix)](https://raw.githubusercontent.com/watchedsyncforkodi/repository.watchedsync.addon/kodi-v19/repository.watchedsync.addon.latest.zip)
 
 2. Install downloaded zip.
 
-	1. Go to *Settings* > *Add-ons* > *Install from zip file* 
+    1. Go to *Settings* > *Add-ons* > *Install from zip file* 
 	
         **Note**: If this is the first time you have installed an add-on from a zip file, Kodi will pop up a window to ask whether you will allow installation from unknown sources. This must be enabled to continue.
 
-	2. Select *"Home folder"* > Scroll down and select *repository.watchedsync.addon.latest.zip*
+    2. Select *"Home folder"* > Scroll down and select *repository.watchedsync.addon.latest.zip*
 
-	3. Still in the Add-ons menu - Go to *Install from repository* > *Watched Status Sync Add-on (Kodi vXX.X) Repository* > *Services* > *Watched Status Sync* > Install
+    3. Still in the Add-ons menu - Go to *Install from repository* > *Watched Status Sync Add-on (Kodi vXX.X) Repository* > *Services* > *Watched Status Sync* > Install
 
-	4. Select *OK* to install additional add-ons
+    4. Select *OK* to install additional add-ons
 	
-	5. Once installed, around 30 seconds later, it pop up a window instructing you to email the registration code. **Take note of both the email address and the registration code**. The registration code will have 8 letters in the format XXXX-XXXX.
+    5. Once installed, around 30 seconds later, it pop up a window instructing you to email the registration code. **Take note of both the email address and the registration code**. The registration code will have 8 letters in the format XXXX-XXXX.
 
 3. To complete registration, send an email to the email address noted with the registration code(s) from **all your kodi devices you want to sync.**
    
@@ -60,8 +62,17 @@ For now assume this will remain free until further notice.
 5. After receiving the confirmation email the last step is to reboot/restart all the kodi devices.
    
 6. **That's it!**
-   
-7. This add-on is designed to work quietly in the background with little visual feedback. **To test it is working**, highlight a movie on the home screen and bring up the Context Menu in Kodi (you can normally press 'c' on the keyboard to bring up the menu). Select "Mark as watched". Within a few seconds the other kodi devices will mark the same movie as watched! On the second device bring up the Context Menu again for the same movie, this time selecting "Mark as unwatched". Within a few seconds the other kodi devices will mark the movie as unwatched.   
+
+7. (Optional) This add-on is designed to work quietly in the background with little visual feedback, **To test it is working**, highlight a movie on the home screen and bring up the Context Menu in Kodi (you can normally press 'c' on the keyboard to bring up the menu). Select "Mark as watched". Within a few seconds the other kodi devices will mark the same movie as watched! On another Kodi device bring up the Context Menu again for the same movie, this time selecting "Mark as unwatched". Within a few seconds the other kodi devices will mark the movie as unwatched.   
+
+### Things to note
+
+* The add-on won't sync while kodi is playing or when the video library is being updated.
+* The add-on commences sync around 45 secs after kodi startup. If you haven't started kodi for a while then leave it idle for a few minutes to work through and sync the changes.
+* It can sync up to six kodi devices.
+* Each kodi device should use the same metadata information provider.
+* Not essential but all functionality is enabled if each kodi device has the same path to the shared media storage.
+* You can check the add-on status by going into the settings screen.
 
 ### Need help?
 
@@ -70,4 +81,3 @@ For now assume this will remain free until further notice.
 ### Thanks to
 * Team Kodi for [Kodi](https://kodi.tv/) and the support from everyone provided in the [forums](https://forum.kodi.tv/).
 * Other open-sourced add-ons that have helped guide the initial structure of this add-on.
-
