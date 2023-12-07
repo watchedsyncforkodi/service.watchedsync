@@ -41,6 +41,7 @@ For now assume this will remain free until further notice.
     * [Download version for Kodi v18.x (Leia)](https://raw.githubusercontent.com/watchedsyncforkodi/repository.watchedsync.addon/kodi-v18/repository.watchedsync.addon.latest.zip)
     * [Download version for Kodi v19.x (Matrix)](https://raw.githubusercontent.com/watchedsyncforkodi/repository.watchedsync.addon/kodi-v19/repository.watchedsync.addon.latest.zip)
     * [Download version for Kodi v20.x (Nexus)](https://raw.githubusercontent.com/watchedsyncforkodi/repository.watchedsync.addon/kodi-v19/repository.watchedsync.addon.latest.zip)
+    * [Download version for Kodi v21.x (Omega)](https://raw.githubusercontent.com/watchedsyncforkodi/repository.watchedsync.addon/kodi-v19/repository.watchedsync.addon.latest.zip)
 
 2. Install downloaded zip.
 
@@ -68,6 +69,7 @@ For now assume this will remain free until further notice.
 
 ### Things to note
 
+* The add-on requires use of the [Kodi video library](https://kodi.wiki/view/HOW-TO:Create_Video_Library). File/direct playback will not synchronise.
 * The add-on will pause syncing while Kodi is playing a video or when the video library is being updated.
 * The add-on commences sync around 45 secs after Kodi boots. If you haven't started Kodi for a while then leave it idle for a few minutes to work through and sync the changes.
 * This service can sync up to six Kodi devices.
